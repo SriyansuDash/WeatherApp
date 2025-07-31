@@ -47,7 +47,7 @@ header h1 {
     border-radius: 50px;
     font-size: 2rem;
     background-color: #585858;
-    border-radius: 2px solid #6161617a;
+    border-radius: 2px solid #616161a1;
     text-align: center;
     color-scheme: dark;
 }
@@ -81,7 +81,7 @@ header h1 {
     width: 80pc;
     border-radius: 50px;
     height:42pc;
-    background-color: #222222ad;
+    background-color: #222222bb;
     animation: fadeIn 1s ease-in-out;
     animation-direction: alternate;
 }
