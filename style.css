@@ -14,8 +14,9 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #222;
+    background: linear-gradient(to right, #82a1a7, #3e6b6d);
     color: #fff;
+
 }
 
 header {
@@ -25,7 +26,7 @@ header {
 
 header h1 {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     font-size: 3.5rem;
     color: var(--accent-color);
@@ -68,7 +69,7 @@ header h1 {
 }
 .searchbtn:hover {
     background-color: #1a7a7a;
-    background: linear-gradient(to right, #1a7a7a, #0c7a68);
+    background: linear-gradient(to right, #2b9e9e, #0b9780);
 }
 .weather-info{
     display: flex;
@@ -80,6 +81,18 @@ header h1 {
     width: 80pc;
     border-radius: 50px;
     height:42pc;
+    background-color: #222222ad;
+    animation: fadeIn 1s ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    
 }
 .main-info{
     display: flex;
@@ -163,6 +176,5 @@ header h1 {
 footer {
     text-align: center;
     margin-top: 7px;
-    background-color: #222;
-    color: #ffffff;
+    color: #ffffff69;
 }
