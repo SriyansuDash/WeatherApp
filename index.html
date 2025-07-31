@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            WeatherApp
+        </h1>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" name="search" class="input" id="cityInput" placeholder="Enter city name">
+            <button type="submit" class="searchbtn">Search</button>
+        </div>
+        <div class="weather-info">
+            <p class="cityname">Banglore</p>
+            <div class="main-info">
+                <div class="temprature">
+                    <p class="value">25</p>
+                    <p class="unit">degrees</p>
+                </div>
+                <div class="separation">
+                    <p class="value"></p>
+                </div>
+                <div class="weather-type">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1163/1163660.png" alt="Weather Icon"
+                        height="100px">
+                    <p class="value">Sunny</p>
+                </div>
+            </div>
+            <div class="additional-info">
+                <div class="card card1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/728/728093.png" alt="Humidity Icon" height="40">
+                    <div class="humidity-info">
+                        <p class="humidity">Humidity</p>
+                        <p class="value humidity" id="humidityValue">60%</p>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/553/553416.png" alt="Wind Icon" height="40">
+                    <div class="wind-info">
+                        <p class="Wind">Wind Speed  </p>
+                        <p class="value wind" id="windValue">15 km/h<span class="direction">N</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>All parameters are for demonstration purposes only. Search your city name to get your actual weather information</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
